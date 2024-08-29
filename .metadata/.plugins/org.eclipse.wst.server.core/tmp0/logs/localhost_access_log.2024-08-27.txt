@@ -1,0 +1,9 @@
+127.0.0.1 - - [27/Aug/2024:11:30:58 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:11:34:05 +0900] "GET /controller/ HTTP/1.1" 200 165
+127.0.0.1 - - [27/Aug/2024:12:14:32 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:12:14:32 +0900] "GET /controller/WEB-INF/classes/kr/board/controller/BoardController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:12:14:54 +0900] "GET /controller/ HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:12:15:33 +0900] "GET /controller//boardList.do HTTP/1.1" 404 800
+127.0.0.1 - - [27/Aug/2024:12:20:48 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:12:20:52 +0900] "GET /controller//boardList.do HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [27/Aug/2024:12:29:19 +0900] "GET /controller//boardList.do HTTP/1.1" 200 164

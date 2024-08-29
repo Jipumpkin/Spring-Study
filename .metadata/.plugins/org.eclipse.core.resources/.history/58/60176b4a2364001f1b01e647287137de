@@ -1,0 +1,16 @@
+package kr.board.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller	// Controller가 되기 위해 어노테이션으로 명시
+public class BoardController {
+	
+	// 게시판 전체조회 기능 - boardList.do
+	@RequestMapping("/boardList.do") // 아래 메소드와 url을 연경
+	public void boardList() {
+		System.out.println("게시판 전체조회 기능");
+	}
+	
+
+}
